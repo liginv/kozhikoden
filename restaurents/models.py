@@ -20,8 +20,8 @@ class Restaurent(models.Model):
                                  choices=FOOD_TYPE,
                                  default=BOTH)
 
-    opening_time = models.IntegerField(default=None)
-    closing_time = models.IntegerField(default=None)
+    opening_time = models.TimeField()
+    closing_time = models.TimeField()
 
     NAADAN = 'NAD'
     ARABIAN = 'ARB'
