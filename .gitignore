@@ -1,0 +1,11 @@
+db.sqlite3
+venv/*
+*.pyc
+
+
+# project migrations
+restaurents/migrations/*
+culturals/migrations/*
+events/migrations/*
+movies/migrations/*
+media/*
