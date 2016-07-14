@@ -9,3 +9,5 @@ culturals/migrations/*
 events/migrations/*
 movies/migrations/*
 media/*
+
+kozhikoden/settings.py
