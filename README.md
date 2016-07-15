@@ -9,4 +9,3 @@ change the **MEDIA_ROOT** ( in kozhikoden/seetings.py) path to the complete path
 ### CheckList
 
 - [ ] Setup api
-- [ ] Testing telegram intergration
