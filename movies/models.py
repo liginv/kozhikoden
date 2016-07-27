@@ -60,6 +60,7 @@ class Theatre(models.Model):
     online_reservation = models.CharField(max_length=3,
                                           choices=ONLINE_RESERVATION,
                                           default=ONLINE_AVA)
+    link_to_reservation_site = models.URLField(max_length=200,blank=True)
 
     def __str__(self):
         return self.name
