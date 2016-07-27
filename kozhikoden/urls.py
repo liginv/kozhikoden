@@ -17,12 +17,18 @@ from django.conf.urls import include, url
 from django.conf import settings
 from django.contrib import admin
 from django.contrib.staticfiles.urls import static
-from movies.views import Index, Movies
+
 admin.autodiscover()
 
+from movies.views import home, Movies
+from movies import urls as api_movie_url
+
 urlpatterns = [
-    url(r'^$', Index.as_view()),
+
+    url(r'^$', home),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^movies/', Movies.as_view()),
-    # url(r'^movies/', include('movies.urls')),
+
+    url(r'^movies/$', Movies.as_view()),
+    url(r'^api/v1/movies/', include(api_movie_url)),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
