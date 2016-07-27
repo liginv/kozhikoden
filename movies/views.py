@@ -5,31 +5,25 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import View
 from django.views.generic import ListView
-from movies.models import Show
 
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
-# def index(request):
-#    latest_show_list = Show.objects.order_by('-show_name')[:5]
-#    template = loader.get_template('movies/index.html')
-#    context = RequestContext(request, {
-#                             'latest_show_list': latest_show_list,
-#                             })
-#    return HttpResponse(template.render(context))
+from movies.models import Show, Movie
+from movies.serializers import MovieSerializer
 
+def home(request):
+    return HttpResponse("Welcome to Kozhikodens")
 
-class Listview(ListView):
-    model = Show
-
-
-class Index(View):
-    def get(self, request):
-        return HttpResponse('I am called from a get Request')
-
-    def post(self, request):
-        return HttpResponse('I am called from a post Request')
-
+class Index(APIView):
+    
+    def get(self, request, format=None):
+        movies = Movie.objects.all()
+        serializer = MovieSerializer(movies, many=True)
+        return Response(serializer.data)
 
 class Movies(View):
+
     def get(self, request):
         latest_show_list = Show.objects.order_by('-show_name')[:5]
         context = {'latest_show_list': latest_show_list}
@@ -52,3 +46,18 @@ def results(request, movie_name):
 def show(request, movie_name):
     return HttpResponse("You're seeing on movie %s." % movie_name)
 """
+
+
+# def index(request):
+#    latest_show_list = Show.objects.order_by('-show_name')[:5]
+#    template = loader.get_template('movies/index.html')
+#    context = RequestContext(request, {
+#                             'latest_show_list': latest_show_list,
+#                             })
+#    return HttpResponse(template.render(context))
+
+
+class Listview(ListView):
+    model = Show
+
+
