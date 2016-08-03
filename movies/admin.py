@@ -16,11 +16,11 @@ class ShowTimeChoiceInline(admin.TabularInline):
 
 
 class MovieAdmin(admin.ModelAdmin):
-    list_display = ('movie_name', 'status', 'language')
+    list_display = ('name', 'status', 'language')
 
 
 class ShowAdmin(admin.ModelAdmin):
-    list_display = ('show_name', 'show_hall', 'movie_name', 'theatre_name')
+    list_display = ('show_name', 'show_hall', 'movie', 'theatre')
     inlines = [ShowTimeChoiceInline]
     search_fields = ['show_name']
 
