@@ -5,7 +5,7 @@ from geoposition.fields import GeopositionField
 
 
 class Movie(models.Model):
-    movie_name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
     duration = models.IntegerField(default=120)
     movie_pic = models.ImageField(upload_to='movies/')
 
@@ -34,7 +34,7 @@ class Movie(models.Model):
                                 default=ENGLISH)
 
     def __str__(self):
-        return self.movie_name
+        return self.name
 
 
 class Theatre(models.Model):
@@ -75,13 +75,13 @@ class Showhall(models.Model):
 
 
 class Show(models.Model):
-    movie_name = models.ForeignKey(Movie)
-    theatre_name = models.ForeignKey(Theatre)
+    movie = models.ForeignKey(Movie)
+    theatre = models.ForeignKey(Theatre)
     show_name = models.SlugField()
     show_hall = models.ForeignKey(Showhall)
 
     class Meta:
-        unique_together = ('movie_name', 'theatre_name', 'show_hall',)
+        unique_together = ('movie', 'theatre', 'show_hall',)
 
     def __str__(self):
         return self.show_name
