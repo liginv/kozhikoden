@@ -5,9 +5,9 @@ from geoposition.fields import GeopositionField
 
 
 class Event(models.Model):
-    event_name = models.CharField(max_length=50)
-    organiser_name = models.CharField(max_length=50)
-    event_pic = models.ImageField(upload_to='events/')
+    name = models.CharField(max_length=50)
+    organiser = models.CharField(max_length=50)
+    pic = models.ImageField(upload_to='events/')
     date = models.DateField()
     starting_time = models.TimeField()
     fee = models.IntegerField()
@@ -18,3 +18,6 @@ class Event(models.Model):
                                   validators=[phone_regex],
                                   blank=False)  # validators should be a list
     location = GeopositionField()
+
+    def __str__(self):
+        return self.name

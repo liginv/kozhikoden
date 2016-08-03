@@ -4,9 +4,9 @@ from geoposition.fields import GeopositionField
 
 
 class Cultural(models.Model):
-    event_name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
     main_attraction = models.CharField(max_length=50)
-    cultural_pic = models.ImageField(upload_to='cults/')
+    pic = models.ImageField(upload_to='cults/')
 
     EXIBITION = 'EXPO'
     GAUZAL = 'GUZ'
@@ -22,3 +22,6 @@ class Cultural(models.Model):
                                   choices=TYPE,
                                   default=EXIBITION)
     location = GeopositionField()
+
+    def __str__(self):
+        return self.name

@@ -7,7 +7,7 @@ from geoposition.fields import GeopositionField
 class Movie(models.Model):
     name = models.CharField(max_length=100)
     duration = models.IntegerField(default=120)
-    movie_pic = models.ImageField(upload_to='movies/')
+    pic = models.ImageField(upload_to='movies/')
 
     NEW = "NEW"
     RUNNING = "RUN"
@@ -39,7 +39,7 @@ class Movie(models.Model):
 
 class Theatre(models.Model):
     name = models.CharField(max_length=50, default=None)
-    theatre_logo = models.ImageField(upload_to='theatre/')
+    logo = models.ImageField(upload_to='theatre/')
     landmark = models.CharField(max_length=100, default=None)
     location = GeopositionField()
 
@@ -67,9 +67,9 @@ class Theatre(models.Model):
 
 
 class Showhall(models.Model):
+    name = models.CharField(max_length=30)
     show_hall = models.ForeignKey(Theatre)
-    hall_name = models.CharField(max_length=30)
-
+    
     def __str__(self):
         return self.hall_name
 
@@ -77,7 +77,7 @@ class Showhall(models.Model):
 class Show(models.Model):
     movie = models.ForeignKey(Movie)
     theatre = models.ForeignKey(Theatre)
-    show_name = models.SlugField()
+    show_slug = models.SlugField()
     show_hall = models.ForeignKey(Showhall)
 
     class Meta:
@@ -160,5 +160,5 @@ class Time(models.Model):
                               ('11:30', '11:30 pm'),
                               ('11:45', '11:45 pm'), )),
                     )
-    show_time = models.CharField(max_length=100,
+    time = models.CharField(max_length=100,
                                  choices=TIME_CHOICES)

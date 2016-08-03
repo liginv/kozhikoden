@@ -20,9 +20,9 @@ class MovieAdmin(admin.ModelAdmin):
 
 
 class ShowAdmin(admin.ModelAdmin):
-    list_display = ('show_name', 'show_hall', 'movie', 'theatre')
+    list_display = ('show_slug', 'show_hall', 'movie', 'theatre')
     inlines = [ShowTimeChoiceInline]
-    search_fields = ['show_name']
+    search_fields = ['show_slug']
 
 
 class TheatreAdmin(admin.ModelAdmin):
