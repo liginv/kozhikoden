@@ -23,6 +23,9 @@ admin.autodiscover()
 from movies.views import home, Movies
 from movies import urls as api_movie_url
 from restaurents import urls as api_restaurent_url
+from culturals import urls as api_cultural_url
+from events import urls as api_event_url
+
 urlpatterns = [
 
     url(r'^$', home),
@@ -31,5 +34,7 @@ urlpatterns = [
     url(r'^movies/$', Movies.as_view()),
     url(r'^api/v1/movies/', include(api_movie_url)),
     url(r'^api/v1/restaurent/', include(api_restaurent_url)),
+    url(r'^api/v1/cultural/', include(api_cultural_url)),
+    url(r'^api/v1/event/', include(api_event_url)),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
