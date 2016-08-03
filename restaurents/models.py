@@ -5,8 +5,8 @@ from geoposition.fields import GeopositionField
 
 
 class Restaurent(models.Model):
-    restaurent_name = models.CharField(max_length=50)
-    restaurent_pic = models.ImageField(upload_to='restaurents/')
+    name = models.CharField(max_length=50)
+    pic = models.ImageField(upload_to='restaurents/')
 
     VEG = "VEG"
     NON_VEG = "NON"
@@ -57,4 +57,4 @@ class Restaurent(models.Model):
     location = GeopositionField()
 
     def __str__(self):
-        return self.restaurent_name
+        return self.name
