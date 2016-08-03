@@ -18,7 +18,7 @@ class Cultural(models.Model):
         (DRAMA, 'Drama'),
         (MUSIC, 'Music'),
     )
-    event_type = models.CharField(max_length=3,
+    event_type = models.CharField(max_length=5,
                                   choices=TYPE,
                                   default=EXIBITION)
     location = GeopositionField()
