@@ -10,7 +10,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from movies.models import Show, Movie
-from movies.serializers import MovieSerializer
+from movies.serializers import ShowSr, MovieSr
 
 def home(request):
     return HttpResponse("Welcome to Kozhikodens")
@@ -19,7 +19,14 @@ class Index(APIView):
     
     def get(self, request, format=None):
         movies = Movie.objects.all()
-        serializer = MovieSerializer(movies, many=True)
+        serializer = MovieSr(movies, many=True)
+        return Response(serializer.data)
+
+class MovieAtGlance(APIView):
+
+    def get(self, request, format=None):
+        movies_run = Show.objects.filter(movie__status='RUN')
+        serializer = ShowSr(movies_run, many=True)
         return Response(serializer.data)
 
 class Movies(View):
