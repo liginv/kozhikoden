@@ -32,7 +32,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^movies/$', Movies.as_view()),
-    url(r'^api/v1/movies/', include(api_movie_url)),
+    url(r'^api/v1/movie/', include(api_movie_url)),
     url(r'^api/v1/restaurent/', include(api_restaurent_url)),
     url(r'^api/v1/cultural/', include(api_cultural_url)),
     url(r'^api/v1/event/', include(api_event_url)),
