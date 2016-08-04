@@ -66,9 +66,9 @@ class Theatre(models.Model):
         return self.name
 
 
-class Showhall(models.Model):
+class Hall(models.Model):
     name = models.CharField(max_length=30)
-    show_hall = models.ForeignKey(Theatre)
+    hall = models.ForeignKey(Theatre, related_name="hall")
     
     def __str__(self):
         return self.name
@@ -78,10 +78,10 @@ class Show(models.Model):
     movie = models.ForeignKey(Movie)
     theatre = models.ForeignKey(Theatre)
     show_slug = models.SlugField()
-    show_hall = models.ForeignKey(Showhall)
+    hall = models.ForeignKey(Hall)
 
     class Meta:
-        unique_together = ('movie', 'theatre', 'show_hall',)
+        unique_together = ('movie', 'theatre', 'hall',)
 
     def __str__(self):
         return self.movie.name

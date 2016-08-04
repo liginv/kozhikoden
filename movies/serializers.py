@@ -13,7 +13,7 @@ class ShowSr(ModelSerializer):
 
     class Meta:
         model = Show
-        fields = ('movie', 'theatre',)
+        fields = ('id', 'movie', 'theatre',)
         depth = 1
 
 
@@ -27,5 +27,5 @@ class ShowDetailSr(ModelSerializer):
     time = TimeSr(many=True)
     class Meta:
         model = Show
-        fields = ('movie', 'time', 'show_hall',)
+        fields = ('movie', 'time', 'hall',)
         depth = 2
