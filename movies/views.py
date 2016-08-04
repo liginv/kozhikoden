@@ -10,7 +10,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from movies.models import Show, Movie
-from movies.serializers import ShowSr, MovieSr
+from movies.serializers import ShowSr, MovieSr, ShowDetailSr
 
 
 def home(request):
@@ -18,6 +18,7 @@ def home(request):
 
 
 class Index(APIView):
+
     def get(self, request, format=None):
         movies = Movie.objects.all()
         serializer = MovieSr(movies, many=True)
@@ -31,6 +32,15 @@ class MovieAtGlance(APIView):
         serializer = ShowSr(movies_run, many=True)
         return Response(serializer.data)
 
+class MovieDetail(APIView):
+
+    def get(self, request, movie_id):
+        '''
+        the movie_id here is actually the pk of show_model
+        '''
+        show = Show.objects.filter(id=movie_id)
+        serializer = ShowDetailSr(show, many=True)
+        return Response(serializer.data)
 
 class Movies(View):
 
