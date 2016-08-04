@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from .models import Restaurent
 from .serializers import RestaurentSr
 
+
 class RestaurentAtGlance(APIView):
 
     def get(self, request, format=None):

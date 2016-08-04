@@ -1,7 +1,7 @@
-from rest_framework import serializers
+# from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
-
 from .models import Movie, Show, Theatre
+
 
 class ShowSr(ModelSerializer):
 
@@ -9,6 +9,7 @@ class ShowSr(ModelSerializer):
         model = Show
         fields = ('movie', 'theatre',)
         depth = 1
+
 
 class MovieSr(ModelSerializer):
 

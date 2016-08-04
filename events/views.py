@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from .models import Event
 from .serializers import EventSr
 
+
 class EventAtGlance(APIView):
 
     def get(self, request, format=None):
