@@ -71,7 +71,7 @@ class Showhall(models.Model):
     show_hall = models.ForeignKey(Theatre)
     
     def __str__(self):
-        return self.hall_name
+        return self.name
 
 
 class Show(models.Model):
@@ -84,11 +84,11 @@ class Show(models.Model):
         unique_together = ('movie', 'theatre', 'show_hall',)
 
     def __str__(self):
-        return self.show_name
+        return self.movie.name
 
 
 class Time(models.Model):
-    shows = models.ForeignKey(Show)
+    show = models.ForeignKey(Show, related_name='time')
     MORNING = 'Morning'
     NOON = 'Noon'
     EVENING = 'Evening'
