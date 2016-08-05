@@ -34,7 +34,7 @@ class MovieAtGlance(APIView):
 
 class MovieDetail(APIView):
 
-    def get(self, request, movie_id):
+    def get(self, request, movie_id, format=None):
         '''
         the movie_id here is actually the pk of show_model
         '''
