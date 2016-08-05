@@ -8,4 +8,10 @@ class RestaurentSr(ModelSerializer):
 
     class Meta:
         model = Restaurent
-        fields = ('name', 'pic', 'ambience',)
+        fields = ('id', 'name', 'pic', 'ambience',)
+
+class RestaurentDetailSr(ModelSerializer):
+
+    class Meta:
+        model = Restaurent
+        fields = '__all__'
