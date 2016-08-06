@@ -8,4 +8,10 @@ class CulturalSr(ModelSerializer):
 
     class Meta:
         model = Cultural
-        fields = ('name', 'pic', 'event_type',)
+        fields = ('id', 'name', 'pic', 'event_type',)
+
+class CulturalDetailSr(ModelSerializer):
+
+    class Meta:
+        model = Cultural
+        fields = '__all__'
