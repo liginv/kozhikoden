@@ -39,7 +39,7 @@ class Movie(models.Model):
 
 class Theatre(models.Model):
     name = models.CharField(max_length=50, default=None)
-    logo = models.ImageField(upload_to='theatre/')
+    logo = models.ImageField(upload_to='theatre/', blank=True)
     landmark = models.CharField(max_length=100, default=None)
     location = GeopositionField()
 
@@ -60,16 +60,17 @@ class Theatre(models.Model):
     online_reservation = models.CharField(max_length=3,
                                           choices=ONLINE_RESERVATION,
                                           default=ONLINE_AVA)
-    link_to_reservation_site = models.URLField(max_length=200,blank=True)
+    link_to_reservation_site = models.URLField(max_length=200, blank=True)
 
     def __str__(self):
         return self.name
 
 
 class Hall(models.Model):
-    name = models.CharField(max_length=30)
-    hall = models.ForeignKey(Theatre, related_name="hall")
-    
+    name = models.CharField(max_length=30, null=True, blank=True)
+    hall = models.ForeignKey(Theatre, related_name="hall",
+                             null=True, blank=True)
+
     def __str__(self):
         return self.name
 
@@ -78,7 +79,7 @@ class Show(models.Model):
     movie = models.ForeignKey(Movie)
     theatre = models.ForeignKey(Theatre)
     show_slug = models.SlugField()
-    hall = models.ForeignKey(Hall)
+    hall = models.ForeignKey(Hall, null=True, blank=True)
 
     class Meta:
         unique_together = ('movie', 'theatre', 'hall',)
@@ -156,9 +157,9 @@ class Time(models.Model):
                               ('10:30', '10:30 pm'),
                               ('10:45', '10:45 pm'),
                               ('11', '11:00 pm'),
-                              ('10:15', '10:15 pm'),
+                              ('11:15', '11:15 pm'),
                               ('11:30', '11:30 pm'),
                               ('11:45', '11:45 pm'), )),
                     )
     time = models.CharField(max_length=100,
-                                 choices=TIME_CHOICES)
+                            choices=TIME_CHOICES)
