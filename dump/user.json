@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$CCzH6LolNxCA$PlvGowBJn47CY0srjzzPlIbTZVH/4AypkVSBG3/k24c=",
+    "last_login": "2016-08-09T06:31:49.975Z",
+    "is_superuser": true,
+    "username": "ligin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ligindd@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-08-09T06:05:09.834Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

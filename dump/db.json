@@ -1,0 +1,1812 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movies",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "movies",
+    "model": "theatre"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "movies",
+    "model": "hall"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "movies",
+    "model": "show"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "movies",
+    "model": "time"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "restaurents",
+    "model": "restaurent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "culturals",
+    "model": "cultural"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "events",
+    "model": "event"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "tastypie",
+    "model": "apiaccess"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "tastypie",
+    "model": "apikey"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "54wuyiulo2d9wz3huos5d0gu4e26lu54",
+  "fields": {
+    "session_data": "YThkNjM5OTI4Y2Y1MDVhMTc3OTVlN2ZlN2U3NGFlNjllNWE2NTQ5NDp7Il9hdXRoX3VzZXJfaGFzaCI6IjY5ZjRhZWY0YjgxNTUxNzcyZWI1OTU1ZGM2ZjUwNTU0YmY5ZGVhZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-08-23T06:05:24.710Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e4r4umh7trpshgj49bspci91o0gwpv7r",
+  "fields": {
+    "session_data": "YThkNjM5OTI4Y2Y1MDVhMTc3OTVlN2ZlN2U3NGFlNjllNWE2NTQ5NDp7Il9hdXRoX3VzZXJfaGFzaCI6IjY5ZjRhZWY0YjgxNTUxNzcyZWI1OTU1ZGM2ZjUwNTU0YmY5ZGVhZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-08-23T06:31:49.981Z"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Ann Maria Kalippilanu",
+    "duration": 120,
+    "pic": "movies/Ann-Maria-Kalippilanu.jpg",
+    "status": "NEW",
+    "language": "MAL"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Anuraga Karikkin Vellam",
+    "duration": 120,
+    "pic": "movies/anuraga-karikkin-vellam.jpg",
+    "status": "RUN",
+    "language": "MAL"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Gappi",
+    "duration": 120,
+    "pic": "movies/gappi.jpg",
+    "status": "NEW",
+    "language": "MAL"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 4,
+  "fields": {
+    "name": "Happy Wedding",
+    "duration": 120,
+    "pic": "movies/HAPPY-WDDING.png",
+    "status": "RUN",
+    "language": "MAL"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 5,
+  "fields": {
+    "name": "Kabali",
+    "duration": 120,
+    "pic": "movies/Kabali.jpg",
+    "status": "NEW",
+    "language": "TML"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 6,
+  "fields": {
+    "name": "Sulthan",
+    "duration": 120,
+    "pic": "movies/Sulthan.jpg",
+    "status": "RUN",
+    "language": "HID"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 7,
+  "fields": {
+    "name": "Vismayam",
+    "duration": 120,
+    "pic": "movies/vismayam.jpg",
+    "status": "NEW",
+    "language": "MAL"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 8,
+  "fields": {
+    "name": "Jason Bourne",
+    "duration": 120,
+    "pic": "movies/jason_bourne.jpg",
+    "status": "NEW",
+    "language": "ENG"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 9,
+  "fields": {
+    "name": "Sucide Squad",
+    "duration": 120,
+    "pic": "movies/suicidesquad.jpg",
+    "status": "NEW",
+    "language": "ENG"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 10,
+  "fields": {
+    "name": "Dishoom",
+    "duration": 120,
+    "pic": "movies/dishoom.jpg",
+    "status": "NEW",
+    "language": "HID"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 1,
+  "fields": {
+    "name": "Crown Theatre",
+    "logo": "",
+    "landmark": "Near Town Hall",
+    "location": "11.253453263760985,75.77900287724606",
+    "contact_no": "+919991234000",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://www.ticketnew.com"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 2,
+  "fields": {
+    "name": "Coronation Theatre",
+    "logo": "",
+    "landmark": "Near Stadium",
+    "location": "11.255433274825057,75.78465861907966",
+    "contact_no": "+919991234001",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://www.ticketnew.com"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 3,
+  "fields": {
+    "name": "Radha Picture Palace",
+    "logo": "",
+    "landmark": "S M Street",
+    "location": "11.251552592751901,75.78199889433438",
+    "contact_no": "+919991234002",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://www.ticketnew.com"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 4,
+  "fields": {
+    "name": "Apsara Theatre",
+    "logo": "",
+    "landmark": "Near Kozhikode Railway Station",
+    "location": "11.247067776989299,75.78370375267036",
+    "contact_no": "+919991234003",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://www.ticketnew.com"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 5,
+  "fields": {
+    "name": "Ganga Theatre",
+    "logo": "",
+    "landmark": "Behind Indoor Stadium",
+    "location": "11.257422408660332,75.78501833914788",
+    "contact_no": "+919991234004",
+    "online_reservation": "No",
+    "link_to_reservation_site": ""
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 6,
+  "fields": {
+    "name": "Kairali Sree Theater Complex",
+    "logo": "",
+    "landmark": "Opposite KSRTC Bus-Stand",
+    "location": "11.258551133813894,75.78249468836066",
+    "contact_no": "+919991234005",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://www.chithranjali.in/"
+  }
+},
+{
+  "model": "movies.theatre",
+  "pk": 7,
+  "fields": {
+    "name": "Film City",
+    "logo": "",
+    "landmark": "Inside R P Mall",
+    "location": "11.259588752176882,75.7882564791505",
+    "contact_no": "+919991234006",
+    "online_reservation": "Yes",
+    "link_to_reservation_site": "http://filmcityticket.com/"
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 1,
+  "fields": {
+    "name": "Audi 1",
+    "hall": 1
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 2,
+  "fields": {
+    "name": "Audi 2",
+    "hall": 1
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 3,
+  "fields": {
+    "name": "Kairali",
+    "hall": 6
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 4,
+  "fields": {
+    "name": "Sree",
+    "hall": 6
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 5,
+  "fields": {
+    "name": "Coral",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 6,
+  "fields": {
+    "name": "Emerald",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 7,
+  "fields": {
+    "name": "Topaz",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 8,
+  "fields": {
+    "name": "Sapphire",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.hall",
+  "pk": 9,
+  "fields": {
+    "name": "Ruby",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 1,
+  "fields": {
+    "movie": 5,
+    "theatre": 7,
+    "show_slug": "kfc",
+    "hall": 5
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 2,
+  "fields": {
+    "movie": 4,
+    "theatre": 7,
+    "show_slug": "hwfc",
+    "hall": 6
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 3,
+  "fields": {
+    "movie": 2,
+    "theatre": 7,
+    "show_slug": "akvfc",
+    "hall": 7
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 4,
+  "fields": {
+    "movie": 6,
+    "theatre": 7,
+    "show_slug": "sfc",
+    "hall": 8
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 5,
+  "fields": {
+    "movie": 1,
+    "theatre": 7,
+    "show_slug": "amkfc",
+    "hall": 8
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 6,
+  "fields": {
+    "movie": 3,
+    "theatre": 7,
+    "show_slug": "gfc",
+    "hall": 9
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 7,
+  "fields": {
+    "movie": 7,
+    "theatre": 7,
+    "show_slug": "vfc",
+    "hall": 6
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 8,
+  "fields": {
+    "movie": 8,
+    "theatre": 1,
+    "show_slug": "jbct",
+    "hall": 2
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 9,
+  "fields": {
+    "movie": 3,
+    "theatre": 1,
+    "show_slug": "gct",
+    "hall": 2
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 10,
+  "fields": {
+    "movie": 9,
+    "theatre": 1,
+    "show_slug": "ssct",
+    "hall": 1
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 11,
+  "fields": {
+    "movie": 10,
+    "theatre": 1,
+    "show_slug": "dct",
+    "hall": 2
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 12,
+  "fields": {
+    "movie": 3,
+    "theatre": 4,
+    "show_slug": "gat",
+    "hall": null
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 13,
+  "fields": {
+    "movie": 2,
+    "theatre": 4,
+    "show_slug": "akvat",
+    "hall": null
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 14,
+  "fields": {
+    "movie": 1,
+    "theatre": 3,
+    "show_slug": "amkrpt",
+    "hall": null
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 15,
+  "fields": {
+    "movie": 7,
+    "theatre": 3,
+    "show_slug": "vrpt",
+    "hall": null
+  }
+},
+{
+  "model": "movies.show",
+  "pk": 16,
+  "fields": {
+    "movie": 7,
+    "theatre": 2,
+    "show_slug": "vct",
+    "hall": null
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 1,
+  "fields": {
+    "show": 1,
+    "time": "10:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 2,
+  "fields": {
+    "show": 1,
+    "time": "1:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 3,
+  "fields": {
+    "show": 2,
+    "time": "12:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 4,
+  "fields": {
+    "show": 2,
+    "time": "8:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 5,
+  "fields": {
+    "show": 3,
+    "time": "10"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 6,
+  "fields": {
+    "show": 3,
+    "time": "12:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 7,
+  "fields": {
+    "show": 3,
+    "time": "3"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 8,
+  "fields": {
+    "show": 3,
+    "time": "5:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 9,
+  "fields": {
+    "show": 3,
+    "time": "8:15"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 10,
+  "fields": {
+    "show": 3,
+    "time": "10:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 11,
+  "fields": {
+    "show": 4,
+    "time": "10:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 12,
+  "fields": {
+    "show": 5,
+    "time": "10"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 13,
+  "fields": {
+    "show": 5,
+    "time": "3:15"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 14,
+  "fields": {
+    "show": 5,
+    "time": "5:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 15,
+  "fields": {
+    "show": 5,
+    "time": "8:15"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 16,
+  "fields": {
+    "show": 6,
+    "time": "10:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 17,
+  "fields": {
+    "show": 6,
+    "time": "7:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 18,
+  "fields": {
+    "show": 7,
+    "time": "10"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 19,
+  "fields": {
+    "show": 7,
+    "time": "3:15"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 20,
+  "fields": {
+    "show": 7,
+    "time": "6"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 21,
+  "fields": {
+    "show": 7,
+    "time": "11"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 22,
+  "fields": {
+    "show": 8,
+    "time": "4:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 23,
+  "fields": {
+    "show": 8,
+    "time": "7"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 24,
+  "fields": {
+    "show": 8,
+    "time": "9:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 25,
+  "fields": {
+    "show": 9,
+    "time": "1:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 26,
+  "fields": {
+    "show": 10,
+    "time": "11"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 27,
+  "fields": {
+    "show": 10,
+    "time": "1:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 28,
+  "fields": {
+    "show": 10,
+    "time": "4"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 29,
+  "fields": {
+    "show": 10,
+    "time": "6:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 30,
+  "fields": {
+    "show": 10,
+    "time": "9:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 31,
+  "fields": {
+    "show": 11,
+    "time": "11"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 32,
+  "fields": {
+    "show": 12,
+    "time": "11:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 33,
+  "fields": {
+    "show": 13,
+    "time": "2:45"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 34,
+  "fields": {
+    "show": 13,
+    "time": "6:15"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 35,
+  "fields": {
+    "show": 13,
+    "time": "9"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 36,
+  "fields": {
+    "show": 14,
+    "time": "2:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 37,
+  "fields": {
+    "show": 14,
+    "time": "6"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 38,
+  "fields": {
+    "show": 14,
+    "time": "9"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 39,
+  "fields": {
+    "show": 15,
+    "time": "11:30"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 40,
+  "fields": {
+    "show": 16,
+    "time": "6"
+  }
+},
+{
+  "model": "movies.time",
+  "pk": 41,
+  "fields": {
+    "show": 16,
+    "time": "9"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add movie",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change movie",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add theatre",
+    "content_type": 8,
+    "codename": "add_theatre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change theatre",
+    "content_type": 8,
+    "codename": "change_theatre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete theatre",
+    "content_type": 8,
+    "codename": "delete_theatre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add hall",
+    "content_type": 9,
+    "codename": "add_hall"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change hall",
+    "content_type": 9,
+    "codename": "change_hall"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete hall",
+    "content_type": 9,
+    "codename": "delete_hall"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add show",
+    "content_type": 10,
+    "codename": "add_show"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change show",
+    "content_type": 10,
+    "codename": "change_show"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete show",
+    "content_type": 10,
+    "codename": "delete_show"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add time",
+    "content_type": 11,
+    "codename": "add_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change time",
+    "content_type": 11,
+    "codename": "change_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete time",
+    "content_type": 11,
+    "codename": "delete_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add restaurent",
+    "content_type": 12,
+    "codename": "add_restaurent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change restaurent",
+    "content_type": 12,
+    "codename": "change_restaurent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete restaurent",
+    "content_type": 12,
+    "codename": "delete_restaurent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add cultural",
+    "content_type": 13,
+    "codename": "add_cultural"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change cultural",
+    "content_type": 13,
+    "codename": "change_cultural"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete cultural",
+    "content_type": 13,
+    "codename": "delete_cultural"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add event",
+    "content_type": 14,
+    "codename": "add_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change event",
+    "content_type": 14,
+    "codename": "change_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete event",
+    "content_type": 14,
+    "codename": "delete_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add api access",
+    "content_type": 15,
+    "codename": "add_apiaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change api access",
+    "content_type": 15,
+    "codename": "change_apiaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete api access",
+    "content_type": 15,
+    "codename": "delete_apiaccess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can add api key",
+    "content_type": 16,
+    "codename": "add_apikey"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can change api key",
+    "content_type": 16,
+    "codename": "change_apikey"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can delete api key",
+    "content_type": 16,
+    "codename": "delete_apikey"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$CCzH6LolNxCA$PlvGowBJn47CY0srjzzPlIbTZVH/4AypkVSBG3/k24c=",
+    "last_login": "2016-08-09T06:31:49.975Z",
+    "is_superuser": true,
+    "username": "ligin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ligindd@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-08-09T06:05:09.834Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2016-08-09T07:20:41.601Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Crown Theatre",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Audi 1\". Added hall \"Audi 2\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2016-08-09T07:23:39.823Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Coronation Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2016-08-09T07:25:56.762Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Radha Picture Palace",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2016-08-09T07:27:56.901Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Apsara Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2016-08-09T07:29:06.968Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Ganga Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2016-08-09T07:32:35.893Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Kairali Sree Theater Complex",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Kairali\". Added hall \"Sree\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2016-08-09T07:38:40.123Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Film City",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Coral\". Added hall \"Emerald\". Added hall \"Topaz\". Added hall \"Sapphire\". Added hall \"Ruby\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2016-08-09T07:39:01.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Crown Theatre",
+    "action_flag": 2,
+    "change_message": "Changed contact_no."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2016-08-09T07:49:27.107Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2016-08-09T07:49:58.831Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2016-08-09T07:50:15.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2016-08-09T07:50:34.755Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Happy Wedding",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2016-08-09T07:50:52.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Kabali",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2016-08-09T07:51:12.309Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Sulthan",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2016-08-09T07:51:30.132Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2016-08-09T07:53:10.865Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Kabali",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2016-08-09T07:54:11.652Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Happy Wedding",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2016-08-09T07:56:28.743Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2016-08-09T07:59:41.715Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Sulthan",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2016-08-09T08:01:33.365Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2016-08-09T08:02:19.603Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2016-08-09T08:04:34.307Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2016-08-09T08:08:40.430Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Jason Bonurne",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2016-08-09T08:09:18.387Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Sucide Squad",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2016-08-09T08:09:38.329Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Dishoom",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2016-08-09T08:10:16.882Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Jason Bourne",
+    "action_flag": 2,
+    "change_message": "Changed name."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2016-08-09T08:11:05.328Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Jason Bourne",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2016-08-09T08:11:29.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2016-08-09T08:12:21.253Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Sucide Squad",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2016-08-09T08:12:46.291Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Dishoom",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2016-08-09T08:25:08.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2016-08-09T08:29:19.435Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2016-08-09T08:30:06.459Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2016-08-09T08:30:30.193Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2016-08-09T08:31:07.123Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+}
+]

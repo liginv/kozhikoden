@@ -1,0 +1,457 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2016-08-09T07:20:41.601Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Crown Theatre",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Audi 1\". Added hall \"Audi 2\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2016-08-09T07:23:39.823Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Coronation Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2016-08-09T07:25:56.762Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Radha Picture Palace",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2016-08-09T07:27:56.901Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Apsara Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2016-08-09T07:29:06.968Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Ganga Theatre",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2016-08-09T07:32:35.893Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Kairali Sree Theater Complex",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Kairali\". Added hall \"Sree\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2016-08-09T07:38:40.123Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Film City",
+    "action_flag": 1,
+    "change_message": "Added. Added hall \"Coral\". Added hall \"Emerald\". Added hall \"Topaz\". Added hall \"Sapphire\". Added hall \"Ruby\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2016-08-09T07:39:01.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Crown Theatre",
+    "action_flag": 2,
+    "change_message": "Changed contact_no."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2016-08-09T07:49:27.107Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2016-08-09T07:49:58.831Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2016-08-09T07:50:15.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2016-08-09T07:50:34.755Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Happy Wedding",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2016-08-09T07:50:52.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Kabali",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2016-08-09T07:51:12.309Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Sulthan",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2016-08-09T07:51:30.132Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2016-08-09T07:53:10.865Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Kabali",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2016-08-09T07:54:11.652Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Happy Wedding",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2016-08-09T07:56:28.743Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2016-08-09T07:59:41.715Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Sulthan",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2016-08-09T08:01:33.365Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2016-08-09T08:02:19.603Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2016-08-09T08:04:34.307Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2016-08-09T08:08:40.430Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Jason Bonurne",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2016-08-09T08:09:18.387Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Sucide Squad",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2016-08-09T08:09:38.329Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Dishoom",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2016-08-09T08:10:16.882Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Jason Bourne",
+    "action_flag": 2,
+    "change_message": "Changed name."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2016-08-09T08:11:05.328Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Jason Bourne",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2016-08-09T08:11:29.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2016-08-09T08:12:21.253Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Sucide Squad",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2016-08-09T08:12:46.291Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Dishoom",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2016-08-09T08:25:08.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Gappi",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2016-08-09T08:29:19.435Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Anuraga Karikkin Vellam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2016-08-09T08:30:06.459Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Ann Maria Kalippilanu",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\". Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2016-08-09T08:30:30.193Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\"."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2016-08-09T08:31:07.123Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Vismayam",
+    "action_flag": 1,
+    "change_message": "Added. Added time \"Time object\". Added time \"Time object\"."
+  }
+}
+]
