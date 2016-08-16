@@ -134,12 +134,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, "static")
+STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, "media")
 MEDIA_URL = '/media/'
 
+STATICFILES_DIRS = (
+                    os.path.join(PROJECT_ROOT, 'static'),
+                    )
 # SPATIALITE_LIBRARY_PATH = '/usr/local/lib/mod_spatialite.dylib'
 
 GEOPOSITION_GOOGLE_MAPS_API_KEY = ' AIzaSyDxd538__HtXgMiIpTohSMaYMxE-S4XWFw '
