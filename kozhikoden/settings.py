@@ -149,3 +149,5 @@ GEOPOSITION_GOOGLE_MAPS_API_KEY = ' AIzaSyDxd538__HtXgMiIpTohSMaYMxE-S4XWFw '
 # Update database configuration with $DATABASE_URL.
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
