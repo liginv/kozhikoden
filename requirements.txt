@@ -3,3 +3,4 @@ django-geoposition==0.2.3
 django-tastypie==0.13.3
 Pillow==3.3.0
 djangorestframework==3.4.0
+psycopg2==2.6.2
