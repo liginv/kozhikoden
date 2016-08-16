@@ -30,7 +30,7 @@ THIRD_PARTY_APPS = [
     'tastypie',
     'geoposition',
     'rest_framework',
-    'imagekit',
+    # 'imagekit',
     # djangorestframework==3.3.3
 ]
 
