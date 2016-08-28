@@ -4,8 +4,8 @@ venv/*
 
 
 # project migrations
-restaurents/migrations/*
-culturals/migrations/*
-events/migrations/*
-movies/migrations/*
+# restaurents/migrations/*
+# culturals/migrations/*
+# events/migrations/*
+# movies/migrations/*
 
