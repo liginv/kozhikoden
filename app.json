@@ -1,0 +1,8 @@
+{
+    "name": "Kozhikoden"
+    "description": "A social app for kozhikodens designed and built with love by Kozhikodens."
+    "image": ""
+    "repository": "https://github.com/liginv/kozhikoden",
+    "keywords": ["python", "django" ],
+    "addons" [ "heroku-postgresql" ]
+}
