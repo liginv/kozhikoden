@@ -1,20 +1,14 @@
 import os
 import dj_database_url
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'gn1l^b__&+a3mute%fkbdm4t5mrb4-@5zl6r51xe^)7g_l2yi8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -87,26 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    },
-    'postgresql': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dbkozhikoden',
-        'USER': 'dbuser',
-        'PASSWORD': 'dbpass',
-        'HOST': 'localhost',
-        'PORT': '',
     }
 }
-
-# static file directory inclusion
-STATICFILES_DIRS = (
-       # put absolute path here as string not relative path.
-       # forward slash to be used even in windows.
-       os.path.join(
-                    os.path.dirname(__file__),
-                    'static',
-                    ),
-       )
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -149,6 +125,16 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
                     os.path.join(PROJECT_ROOT, 'static'),
                     )
+
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ['*']
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
 
@@ -157,7 +143,11 @@ MEDIA_URL = '/media/'
 GEOPOSITION_GOOGLE_MAPS_API_KEY = ' AIzaSyDxd538__HtXgMiIpTohSMaYMxE-S4XWFw '
 
 # Update database configuration with $DATABASE_URL.
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['postgresql'].update(db_from_env)
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_DIRS = (
+       # put absolute path here as string not relative path.
+       # forward slash to be used even in windows.
+       os.path.join(
+                    os.path.dirname(__file__),
+                    'static',
+                    ),
+       )
