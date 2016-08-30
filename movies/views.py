@@ -13,10 +13,6 @@ from movies.models import Show, Movie
 from movies.serializers import ShowSr, MovieSr, ShowDetailSr
 
 
-def home(request):
-    return HttpResponse("Welcome to Kozhikodens")
-
-
 class Index(APIView):
 
     def get(self, request, format=None):
