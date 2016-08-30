@@ -7,7 +7,8 @@ from geoposition.fields import GeopositionField
 class Movie(models.Model):
     name = models.CharField(max_length=100)
     duration = models.IntegerField(default=120)
-    pic = models.ImageField(upload_to='movies/')
+    pic = models.ImageField(upload_to='movies/',
+                            default='default/movie.png')
 
     NEW = "NEW"
     RUNNING = "RUN"
@@ -39,7 +40,8 @@ class Movie(models.Model):
 
 class Theatre(models.Model):
     name = models.CharField(max_length=50, default=None)
-    logo = models.ImageField(upload_to='theatre/', blank=True)
+    logo = models.ImageField(upload_to='theatre/',
+                             default='default/theatre.png')
     landmark = models.CharField(max_length=100, default=None)
     location = GeopositionField()
 

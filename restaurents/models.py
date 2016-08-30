@@ -6,7 +6,8 @@ from geoposition.fields import GeopositionField
 
 class Restaurent(models.Model):
     name = models.CharField(max_length=50)
-    pic = models.ImageField(upload_to='restaurents/')
+    pic = models.ImageField(upload_to='restaurents/',
+                            default='default/resturant.png')
 
     VEG = "VEG"
     NON_VEG = "NON"

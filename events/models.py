@@ -7,7 +7,8 @@ from geoposition.fields import GeopositionField
 class Event(models.Model):
     name = models.CharField(max_length=50)
     organiser = models.CharField(max_length=50)
-    pic = models.ImageField(upload_to='events/')
+    pic = models.ImageField(upload_to='events/',
+                            default='default/events.png')
     date = models.DateField()
     starting_time = models.TimeField()
     fee = models.IntegerField()

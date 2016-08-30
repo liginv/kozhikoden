@@ -6,7 +6,8 @@ from geoposition.fields import GeopositionField
 class Cultural(models.Model):
     name = models.CharField(max_length=50)
     main_attraction = models.CharField(max_length=50)
-    pic = models.ImageField(upload_to='cults/')
+    pic = models.ImageField(upload_to='cults/',
+                            default='default/culturals.png')
 
     EXIBITION = 'EXPO'
     GAUZAL = 'GUZ'
