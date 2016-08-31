@@ -2,7 +2,8 @@ import os
 import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'templates'),)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'gn1l^b__&+a3mute%fkbdm4t5mrb4-@5zl6r51xe^)7g_l2yi8'
@@ -34,6 +35,7 @@ PROJECT_APPS = [
     'restaurents',
     'culturals',
     'events',
+    'homepage',
 ]
 INSTALLED_APPS = CORE_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 
@@ -53,7 +55,7 @@ ROOT_URLCONF = 'kozhikoden.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(os.path.dirname(__file__), 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'debug': True,
@@ -63,11 +65,11 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            # 'loader': [
+            #   'django.template.loaders.filesystem.Loader',
+            #   'django.template.loaders.app_directories.Loader',
+            #   ],
         },
-        # 'TEMPLATE_LOADERS': {
-        # 'django.template.loaders.filesystem.Loader',
-        # 'django.template.loaders.app_directories.Loader',
-        # },
     },
 ]
 
@@ -120,10 +122,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-                    os.path.join(PROJECT_ROOT, 'static'),
+                    os.path.join(BASE_DIR, 'static'),
                     )
 
 db_from_env = dj_database_url.config(conn_max_age=500)
