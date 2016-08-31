@@ -9,8 +9,8 @@ Create a Virtual Environment
 Give the excact name as above to avoid getting it tracked by git.
 </pre><code>source venv/bin/activate</code></pre>
 Within the virtual Environment run
-<pre><code>pip install -U -r requirements.txt</code></pre>
-</pre><code>./manage.py makemigrations</code></pre>
-</pre><code>./manage.py migrate</code></pre>
-</pre><code>./manage.py loaddata dump/db.json</code></pre>
-</pre><code>./manage.py runserver</code></pre>
+<pre><code>pip install -U -r requirements.txt <br>
+./manage.py makemigrations <br>
+./manage.py migrate <br>
+./manage.py loaddata dump/db.json <br>
+./manage.py runserver</code></pre>
