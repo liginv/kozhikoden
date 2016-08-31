@@ -2,8 +2,6 @@ import os
 import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-# TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'templates'),)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'gn1l^b__&+a3mute%fkbdm4t5mrb4-@5zl6r51xe^)7g_l2yi8'
