@@ -20,7 +20,8 @@ from django.contrib.staticfiles.urls import static
 
 admin.autodiscover()
 
-from movies.views import home, Movies
+from homepage.views import home
+from movies.views import Movies
 from movies import urls as api_movie_url
 from restaurents import urls as api_restaurent_url
 from culturals import urls as api_cultural_url
