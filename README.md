@@ -1,17 +1,16 @@
 # KOZHIKODEN:BACKEND (In Python + Django)
-<hr>
 ###Prerequisites<br>
 * Python 2.7 or above (Also works in Pyhton 3.X )
 * virtualenv
 
 ###Getting started<br>
-<code>virtualenv venv</code>
+Create a Virtual Environment
+<pre><code>virtualenv venv</code></pre>
 Give the excact name as above to avoid getting it tracked by git.
-<code>pip install virtualenv</code>
-<code>source venv/bin/activate</code>
-**within the virtual Environment run**
+</pre><code>source venv/bin/activate</code></pre>
+Within the virtual Environment run
 <pre><code>pip install -U -r requirements.txt</code></pre>
-<code>./manage.py makemigrations</code>
-<code>./manage.py migrate</code>
-<code>./manage.py loaddata dump/db.json</code>
-<code>./manage.py runserver</code>
+</pre><code>./manage.py makemigrations</code></pre>
+</pre><code>./manage.py migrate</code></pre>
+</pre><code>./manage.py loaddata dump/db.json</code></pre>
+</pre><code>./manage.py runserver</code></pre>
