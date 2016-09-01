@@ -1,10 +1,33 @@
-<!DOCTYPE html>
+{% load staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-  <title>Homepage | Kozhikoden</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Homepage | Kozhikoden</title>
+
+    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/favicon.ico"/>
+    <!-- Bootstrap -->
+    <link href="{% static "homepage/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{%static "homepage/css/main.css" %}" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
 </head>
 <body>
-  <h1>KOZHIKODEN</h1>
-  <p>We are rolling out soon!!</p>
+  <div class="">
+      <img src="{% static "homepage/imgs/home.png" %}" class="img-responsive" alt="Home"/>
+  </div>
+
+    <script src="{% static "homepage/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "homepage/js/main.js" %}"></script>
 </body>
 </html>
