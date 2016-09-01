@@ -1,0 +1,10 @@
+@font-face {
+        font-family: 'Malayalam';
+        src: url('../fonts/meera.eot');
+        src: url('../fonts/meera.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/meera.woff') format('woff'),
+         url('../fonts/meera.ttf') format('truetype'),
+         url('../fonts/meera.svg#Malayalam') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
