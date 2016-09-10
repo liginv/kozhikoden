@@ -25,5 +25,7 @@ This will implement the models into sqlite
 <pre><code>$ ./manage.py migrate</code></pre><br>
 This will load the dummy datas into the db
 <pre><code>$ ./manage.py loaddata dump/db.json</code></pre><br>
-This creates  a local server to run the application 
+This creates  a local server to run the application
 <pre><code>$ ./manage.py runserver</code></pre>
+
+Made with ♥ by Kozhikodens
