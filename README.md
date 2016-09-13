@@ -29,3 +29,8 @@ This creates  a local server to run the application
 <pre><code>$ ./manage.py runserver</code></pre>
 
 <p style="text-align: center;">Made with ♥ by Kozhikodens</p>
+
+<p align="center">
+  <b>Made with ♥ by Kozhikodens</b><br>
+</p>
+
