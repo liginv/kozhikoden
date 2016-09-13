@@ -28,4 +28,4 @@ This will load the dummy datas into the db
 This creates  a local server to run the application
 <pre><code>$ ./manage.py runserver</code></pre>
 
-<center>Made with ♥ by Kozhikodens</center>
+<p style="text-align: center;">Made with ♥ by Kozhikodens</p>
