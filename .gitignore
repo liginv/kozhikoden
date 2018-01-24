@@ -9,3 +9,6 @@ venv/*
 # events/migrations/*
 # movies/migrations/*
 
+# Vscode
+.vscode
+
