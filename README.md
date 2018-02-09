@@ -2,7 +2,7 @@
 **This is the backend part of kozhikoden app**<br>
 
 * [Android app](https://github.com/alenthomas/kozhikoden-react-native)
-* [iOS app](https://github.com/liginv/kozhikoden_ios)
+* [iOS app](https://github.com/liginv/kozhikoden-ios)
 
 ###Prerequisites<br>
 * Python 2.7 or above (Also works in Pyhton 3.X )
