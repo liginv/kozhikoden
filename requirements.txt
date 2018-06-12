@@ -3,7 +3,7 @@ django-geoposition==0.2.3
 django-tastypie==0.13.3
 Pillow==3.3.0
 djangorestframework==3.4.0
-psycopg2==2.6.2
+psycopg2==2.7.4
 gunicorn==19.6.0
 dj-database-url==0.4.1
 whitenoise==3.2.1
